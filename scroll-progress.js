@@ -14,3 +14,8 @@ export default function calculateScrollProgress() {
 }
 
 //add event Listener for scroll
+
+document.addEventListener("scroll", () => {
+  const scrollProgress = calculateScrollProgress();
+  console.log(`Scroll progress: ${scrollProgress}%`);
+});
