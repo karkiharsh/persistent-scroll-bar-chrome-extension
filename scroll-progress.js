@@ -12,7 +12,7 @@ export default function calculateScrollProgress() {
   /*  
   window.scrollY and document.body.scrollTop are related and consistent on chrome . 
 
-  
+
       console.log('Current scroll position:');
       console.log('window.scrollY:', window.scrollY); 
       console.log('document.documentElement.scrollTop:', document.documentElement.scrollTop);
@@ -20,6 +20,8 @@ export default function calculateScrollProgress() {
 */
 
   const scrollTop =
+    //The || operator in JavaScript is the logical OR operator.
+    // It evaluates operands from left to right and returns the first truthy value it encounters
     window.ScrollY ||
     window.pageYOffset ||
     document.body.scrollTop +
