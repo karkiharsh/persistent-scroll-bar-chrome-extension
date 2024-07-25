@@ -1,3 +1,16 @@
-// event listener for scroll event
+/*
+Consider scenarios where user would get irritated if scroll bar gets directed
 
-document.addEventListener("mousemove", () => {});
+Keep it Simple
+Keep it Simple
+KEEP IT SIMPLE
+
+
+*/
+
+/*
+
+What can I use : 
+
+Use the IntersectionObserver API to detect which elements are currently visible on the screen.
+*/
