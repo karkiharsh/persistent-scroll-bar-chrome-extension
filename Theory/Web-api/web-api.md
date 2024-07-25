@@ -1,6 +1,6 @@
 #2024-07-23 #recall
 
-WEB API is an overarching category alright
+WEB API is an OVERARCHING category alright
 
 ### Web APIs
 
