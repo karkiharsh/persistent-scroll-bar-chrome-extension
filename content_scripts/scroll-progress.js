@@ -32,6 +32,7 @@ document.addEventListener("scroll", () => {
   console.log(`Scroll progress: ${scrollProgress}%`);
 });
 //----------------------------------------------------------
+
 /*
 
 Some scroll properties : 
