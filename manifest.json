@@ -2,5 +2,8 @@
   "manifest_version": 3,
   "name": "persistent-scroll-bar",
   "version": "1.0.0",
-  "description": "A basic example extension with only required keys"
+  "description": "A basic example extension with only required keys",
+  "action": {
+    "default_popup": "hello.html"
+  }
 }
